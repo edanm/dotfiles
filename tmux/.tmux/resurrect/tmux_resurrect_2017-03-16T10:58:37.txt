@@ -1,0 +1,3 @@
+pane	0	0	:zsh	1	:*	0	:/Users/edanm	1	zsh	:
+window	0	0	1	:*	c43d,174x55,0,0,0
+state	0	

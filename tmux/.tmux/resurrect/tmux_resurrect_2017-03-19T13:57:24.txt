@@ -1,0 +1,8 @@
+pane	0	0	:zsh	1	:*	0	:/Users/edanm/dotfiles	1	zsh	:
+pane	0	0	:zsh	1	:*	1	:/Users/edanm	0	zsh	:
+pane	0	1	:vim	0	:	0	:/Users/edanm	1	vim	:vim
+pane	0	2	:zsh	0	:-	0	:/Users/edanm	1	bash	:/bin/bash /Users/edanm/anaconda/bin/python.app /Users/edanm/anaconda/bin/ipython
+window	0	0	1	:*	c7f9,238x56,0,0{119x56,0,0,1,118x56,120,0,4}
+window	0	1	0	:	c95f,238x56,0,0,2
+window	0	2	0	:-	c960,238x56,0,0,3
+state	0	
