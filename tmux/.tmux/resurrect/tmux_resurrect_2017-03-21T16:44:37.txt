@@ -1,0 +1,8 @@
+pane	0	0	:zsh	0	:-	0	:/Users/edanm/Dropbox/Resources/vimrc	0	zsh	:
+pane	0	0	:zsh	0	:-	1	:/Users/edanm/Dropbox/Resources/vimrc	1	zsh	:
+pane	0	1	:vim	1	:*	0	:/Users/edanm	1	zsh	:
+pane	0	2	:zsh	0	:	0	:/Users/edanm	1	bash	:/bin/bash /Users/edanm/anaconda/bin/python.app /Users/edanm/anaconda/bin/ipython
+window	0	0	0	:-	4c7c,238x57,0,0{119x57,0,0,1,118x57,120,0,8}
+window	0	1	1	:*	cd60,238x57,0,0,3
+window	0	2	0	:	cd61,238x57,0,0,4
+state	0	

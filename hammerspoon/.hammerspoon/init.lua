@@ -213,6 +213,30 @@ key_w = function() doKeyWithShift(function()
 end
 hs.hotkey.bind({"alt"}, "w", key_w, nil, key_w)
 
+
+-- ' = :, shift+' = -
+key_quote = function() doKeyWithShift(function()
+    myDoKeyStroke({"shift"}, ";")
+  end, function()
+    myDoKeyStroke({}, "-")
+  end)
+end
+hs.hotkey.bind({"alt"}, "'", key_quote, nil, key_quote)
+
+-- / = insert sinqle quote and put cursor in middle, shift+/ = double quote
+key_slash  = function() doKeyWithShift(function()
+    myDoKeyStroke({}, "'")
+    myDoKeyStroke({}, "'")
+    myDoKeyStroke({}, "left")
+  end, function()
+    myDoKeyStroke({"shift"}, "'")
+    myDoKeyStroke({"shift"}, "'")
+    myDoKeyStroke({}, "left")
+  end)
+end
+hs.hotkey.bind({"alt"}, "/", key_slash , nil, key_slash )
+
+
 -- f = (f)orward 20 chara
 key_f = function() doKeyWithShift(function()
     myDoKeyStroke({}, "right")

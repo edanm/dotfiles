@@ -94,5 +94,11 @@ alias apython=/Users/edanm/anaconda/bin/python
 
 source /Users/edanm/Dropbox/NewComp/projects/fastai-deep-learning/courses/setup/aws-alias.sh
 
+setopt correct
+
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+
+
+set -s escape-time 0
