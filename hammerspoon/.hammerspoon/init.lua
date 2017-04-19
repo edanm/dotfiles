@@ -216,9 +216,9 @@ hs.hotkey.bind({"alt"}, "w", key_w, nil, key_w)
 
 -- ' = :, shift+' = -
 key_quote = function() doKeyWithShift(function()
-    myDoKeyStroke({"shift"}, ";")
-  end, function()
     myDoKeyStroke({}, "-")
+  end, function()
+    myDoKeyStroke({"shift"}, ";")
   end)
 end
 hs.hotkey.bind({"alt"}, "'", key_quote, nil, key_quote)
@@ -235,6 +235,20 @@ key_slash  = function() doKeyWithShift(function()
   end)
 end
 hs.hotkey.bind({"alt"}, "/", key_slash , nil, key_slash )
+
+
+-- y = insert brackets and put cursor in middle, shift+y = semicolons
+key_y  = function() doKeyWithShift(function()
+    myDoKeyStroke({"shift"}, "9")
+    myDoKeyStroke({"shift"}, "0")
+    myDoKeyStroke({}, "left")
+  end, function()
+    myDoKeyStroke({"shift"}, "[")
+    myDoKeyStroke({"shift"}, "]")
+    myDoKeyStroke({}, "left")
+  end)
+end
+hs.hotkey.bind({"alt"}, "y", key_y , nil, key_y)
 
 
 -- f = (f)orward 20 chara

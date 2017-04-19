@@ -48,3 +48,6 @@ chflags nohidden ~/Library
 # Set a really fast key repeat.
 defaults write NSGlobalDomain KeyRepeat -int 1
 
+
+# Disable smart quotes.
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false

@@ -85,7 +85,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-export TERM='xterm-256color'
+# export TERM='xterm-256color'
+export TERM='screen-256color'
 
 # Setting up Anaconda.
 export PATH=$PATH:/Users/edanm/anaconda/bin # Adding anaconda after so my default Python is the system Python.
@@ -99,6 +100,9 @@ setopt correct
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-
+alias pwdc='echo "$(pwd)" | pbcopy'
 
 set -s escape-time 0
+
+
+. /Users/edanm/torch/install/bin/torch-activate
